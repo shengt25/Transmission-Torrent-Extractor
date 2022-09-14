@@ -48,6 +48,11 @@ If no config directory for transmission can be found, or you want to specify it 
 
 (It can only find the default config directory for Linux version for now)
 
+# Thanks
+This program use bencode_open to process torrent and resume files.  
+bencode_open is an open-source MIT-licensed library, refer to: https://github.com/imachug/bencode-open
+
+
 # 这是做什么的？
 
 由于Transmission升级、重装或者出了什么bug，想要把任务清空，全部重新添加一遍？
@@ -91,3 +96,7 @@ python3 main.py
 4. 再次运行即可
 
 （目前只做了查找Linux版本的默认目录）
+
+# 感谢
+本程序使用了bencode_open处理torrent和resume文件。  
+bencode_open使用了MIT-licensed，项目地址：https://github.com/imachug/bencode-open
