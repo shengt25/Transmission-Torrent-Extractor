@@ -9,10 +9,9 @@ When you upgrade, re-install transmission or simply encountered some bugs. The t
 
 Anyway, it's not easy because:
 
-1. It's hard to find the original torrent files.
-
-2. The torrent files are there, but with random names. It's hard to recognize.
-3. The directory structure of the task is complex, the torrent files are mixed together, which is inconvenient to add in batches.
+1. It's hard to find the original torrent files.  
+2. The torrent files are there, but with random names. It's hard to recognize.  
+3. The directory structure of download path is complex, while the torrent files are mixed together, which is inconvenient to add them into different directories in batch.  
 
 
 
@@ -59,11 +58,11 @@ bencode_open is an open-source MIT-licensed library, refer to: https://github.co
 
 但是你遇到了这些问题：
 
-1. 你没有找到种子文件保存在哪
+1. 没有找到种子文件保存在哪
 
 2. 找到了transmission保存的种子文件，但是名字不是原文件名了，难以辨认。
 
-3. 任务的目录结构复杂，种子文件混在一起，不方便批量添加。
+3. 任务的目录结构复杂，种子文件混在一起，不方便批量分类添加。
 
 
 
