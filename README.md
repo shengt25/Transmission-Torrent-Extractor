@@ -25,7 +25,7 @@ Hope that helps you.
 
 1. Clone repository 
 ```
-git clone https://github.com/norman06/Transmission-Torrent-Extractor.git
+git clone https://github.com/shengt25/Transmission-Torrent-Extractor.git
 ```
 2. Enter directory
 ```
@@ -73,7 +73,7 @@ bencode_open is an open-source MIT-licensed library, refer to: https://github.co
 # 如何使用
 1. 克隆项目
 ```
-git clone https://github.com/norman06/Transmission-Torrent-Extractor.git
+git clone https://github.com/shengt25/Transmission-Torrent-Extractor.git
 ```
 2. 打开目录
 ```
