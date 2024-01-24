@@ -5,17 +5,13 @@ Transmission种子提取器，用原任务的原目录结构存放，方便按�
 
 # What is this tool?
 
-When you upgrade, re-install transmission or simply encountered some bugs. The tasks have to be emptied and add again.
+When you want to delete and re-add all the tasks in transmission (due to upgrading, re-install, etc.)
+It's not easy because you might:  
+1. lost the original torrent files  
+2. find torrent files are with random names  
+3. the torrent files are mixed together everywhere  
 
-Anyway, it's not easy because:
-
-1. It's hard to find the original torrent files.  
-2. The torrent files are there, but with random names. It's hard to recognize.  
-3. The directory structure of download path is complex, while the torrent files are mixed together, which is inconvenient to add them into different directories in batch.  
-
-
-
-This tool is to solve this problem. By matching the information of the torrent file and the resume file, it extracts the torrent file and saves it in a new place using the directory structure of the original task. 
+Then you can use this tool to extract torrent file with one click! It reads from transmission's internal data and save the files into to new folder, with the structure of the task folder. 
 
 Hope that helps you.
 
@@ -54,19 +50,13 @@ bencode_open is an open-source MIT-licensed library, refer to: https://github.co
 
 # 这是做什么的？
 
-由于Transmission升级、重装或者出了什么bug，想要把任务清空，全部重新添加一遍？
+当你想清空trnsmission的所有任务，然后重新添加时，(由于升级，重装，等问题)
+你可能会发现：
+1. 种子文件已经删除
+2. 种子文件名难以辨认
+3. 种子文件混在一起，不方便批量分类添加。
 
-但是你遇到了这些问题：
-
-1. 没有找到种子文件保存在哪
-
-2. 找到了transmission保存的种子文件，但是名字不是原文件名了，难以辨认。
-
-3. 任务的目录结构复杂，种子文件混在一起，不方便批量分类添加。
-
-
-
-这个工具就是来解决这个问题的，他通过匹配torrent文件和resume文件的信息，使用原任务的目录结构，将种子文件提取出来，保存在一个新地方。希望有所帮助。
+那么，这个工具就是来解决这个问题的，他通过匹配torrent文件和resume文件的信息，使用原任务的目录结构，将种子文件提取出来，全部保存在新的文件夹中。希望有所帮助。
 
 
 
