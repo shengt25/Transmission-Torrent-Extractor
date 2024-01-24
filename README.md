@@ -34,14 +34,7 @@ python3 main.py
 
 It will look for the default config directory of transmission, extract torrents to the `extract` folder along side the program. It will save them using the directory structure of the original task. Torrents that fail to match will be placed in the `extract/no_match` subdirectory.
 
-If no config directory for transmission can be found, or you want to specify it manually, you need to:
-
-1. Open `main.py` for editing
-2. Set `manually = True`
-3. Edit the `resume_file_path` and `torrent_file_path`
-4. Run it again
-
-(It can only find the default config directory for Linux version for now)
+(It can only find the default config directory in Linux and macOS for now, so you need to specify transmission config path after runnning, if using Windows)
 
 # Thanks
 This program use bencode_open to process torrent and resume files.  
@@ -77,14 +70,7 @@ python3 main.py
 
 他会在transmission的默认配置目录寻找信息，提取到程序所在目录的`extract`文件夹，使用原任务的目录结构保存。未能匹配的种子将放在`extract/no_match`子目录内。
 
-如果没有能找到transmission的目录，或你想手动指定目录，则需要：
-
-1. 打开`main.py`
-2. 标记`manually = True`
-3. 手动修改`resume_file_path`和`torrent_file_path`
-4. 再次运行即可
-
-（目前只做了查找Linux版本的默认目录）
+（目前只做了查找Linux和macOS默认目录查找，如果使用Windows则需要在运行后指定目录）
 
 # 感谢
 本程序使用了bencode_open处理torrent和resume文件。  
